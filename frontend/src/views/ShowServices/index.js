@@ -10,6 +10,7 @@ import {
   Col,
   Button,
   Table,
+  Badge,
 } from "reactstrap";
 
 const ShowServices = () => {
@@ -56,7 +57,10 @@ const ShowServices = () => {
                     <td>Manutenção</td>
                     <td>R$ 4,569</td>
                     <td>
-                      <i className="badge-success" >CONCLUÍDO</i>
+                      <Badge color="" className="badge-dot mr-4">
+                          <i className="bg-success" />
+                          Concluído
+                      </Badge>
                     </td>
                   </tr>
                   <tr>
@@ -64,7 +68,10 @@ const ShowServices = () => {
                     <td>Instalação</td>
                     <td>R$ 100</td>
                     <td>
-                      <i className="badge-primary" >EM PROCESSO</i>
+                      <Badge color="" className="badge-dot mr-4">
+                          <i className="bg-info" />
+                          Em processamento
+                      </Badge>
                     </td>
                   </tr>
                   <tr>
@@ -72,7 +79,10 @@ const ShowServices = () => {
                     <td>Suporte</td>
                     <td>R$ 2,100</td>
                     <td>
-                      <i className="badge-warning" >CANCELADO</i>
+                      <Badge color="" className="badge-dot mr-4">
+                        <i className="bg-danger" />
+                        Cancelado
+                      </Badge>
                     </td>
                   </tr>
                 </tbody>
