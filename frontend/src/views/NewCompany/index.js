@@ -108,7 +108,7 @@ const NewCompany = () => {
                   </h6>
                   <div className="pl-lg-4">
                     <Row>
-                      <Col lg="4">
+                      <Col lg="6" sm="6">
                         <FormGroup>
                           <label
                             className="form-control-label"
@@ -119,8 +119,24 @@ const NewCompany = () => {
                           <Input
                             className="form-control-alternative"
                             id="input-postal-code"
-                            placeholder="Digite seu CEP"
+                            placeholder="Digite o CEP"
                             type="number"
+                          />
+                        </FormGroup>
+                      </Col>
+                      <Col lg="6" sm="6">
+                        <FormGroup>
+                          <label
+                            className="form-control-label"
+                            htmlFor="input-city"
+                          >
+                            Cidade
+                          </label>
+                          <Input
+                            className="form-control-alternative"
+                            id="input-city"
+                            placeholder="Digite o nome da cidade"
+                            type="text"
                           />
                         </FormGroup>
                       </Col>
@@ -133,14 +149,14 @@ const NewCompany = () => {
                           </label>
                           <Input
                             className="form-control-alternative"
-                            placeholder="Digite seu endereço"
+                            placeholder="Digite o endereço"
                             type="text"
                           />
                         </FormGroup>
                       </Col>
                     </Row>
                     <Row>
-                      <Col lg="2">
+                      <Col lg="6" sm="6">
                         <FormGroup>
                           <label
                             className="form-control-label"
@@ -154,34 +170,18 @@ const NewCompany = () => {
                           />
                         </FormGroup>
                       </Col>
-                      <Col lg="4">
+                      <Col lg="4" sm="6">
                         <FormGroup>
                           <label
                             className="form-control-label"
                             htmlFor="input-city"
                           >
-                            Cidade
+                            Bairro
                           </label>
                           <Input
                             className="form-control-alternative"
                             id="input-city"
-                            placeholder="Digite o nome da sua cidade"
-                            type="text"
-                          />
-                        </FormGroup>
-                      </Col>
-                      <Col lg="4">
-                        <FormGroup>
-                          <label
-                            className="form-control-label"
-                            htmlFor="input-city"
-                          >
-                            Cidade
-                          </label>
-                          <Input
-                            className="form-control-alternative"
-                            id="input-city"
-                            placeholder="Digite o nome da sua cidade"
+                            placeholder="Digite o nome do bairro"
                             type="text"
                           />
                         </FormGroup>
