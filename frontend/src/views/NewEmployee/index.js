@@ -19,7 +19,7 @@ const NewEmployee = () => {
     <>
       <Header />
       <Container className="mt--7" fluid>
-        <Row>
+        <Row className="justify-content-center">
           <Col className="order-xl-1" xl="8">
             <Card className="bg-secondary shadow">
               <CardHeader className="bg-white border-0">
