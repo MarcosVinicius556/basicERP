@@ -17,8 +17,8 @@ const ShowCompanies = () => {
     <>
       <Header />
       {/* Page content */}
-      <Container className="mt--7" fluid>       
-        <Row className="mt-5">
+      <Container className="mt--5 vh-100 blue-background" fluid>       
+        <Row className="justify-content-center">
         <Col className="mb-5 mb-xl-0" xl="8">
             <Card className="shadow">
               <CardHeader className="border-0">
@@ -41,8 +41,8 @@ const ShowCompanies = () => {
                   </div>
                 </Row>
               </CardHeader>
-              <Table className="align-items-center table-flush" responsive>
-                <thead className="thead-light">
+              <Table className="table-flush" responsive>
+                <thead className="">
                   <tr>
                     <th scope="col">Razão Social</th>
                     <th scope="col">CNPJ</th>
@@ -56,7 +56,7 @@ const ShowCompanies = () => {
                     <td>99.999.999/9999-99</td>
                     <td>(49) 9 9826-6688</td>
                     <td>
-                      <Link className="text">Editar</Link> | <Link className="text-red">Excluir</Link>
+                      <Link className="text">Editar</Link>|<Link className="text-red">Excluir</Link>
                     </td>
                   </tr>
                 </tbody>

@@ -5,16 +5,26 @@ import {
   Container,
   Row,
   Col,
+  Card,
+  CardHeader,
+  CardBody,
 } from "reactstrap";
 
 const Finance = () => {
   return (
     <>
       <Header />
-      <Container className="mt--7" fluid>
-        <Row>
+      <Container className="mt--5 vh-100 blue-background" fluid>
+        <Row className="justify-content-center">
           <Col className="order-xl-1" xl="8">
-            <h1>Aqui será a página do financeiro</h1>
+            <Card>
+            <CardHeader>
+              <h1>Aqui será a página do financeiro</h1>
+            </CardHeader>
+            <CardBody>
+              <p>lorem ipsun</p>
+            </CardBody>
+            </Card>
           </Col>
         </Row>
       </Container>

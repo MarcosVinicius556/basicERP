@@ -25,8 +25,8 @@ const NewService = () => {
   return (
     <>
       <Header />
-      <Container className="mt--7" fluid>
-        <Row>
+      <Container className="mt--5 blue-background" fluid>
+        <Row className="justify-content-center">
           <Col className="order-xl-1" xl="8">
             <Card className="bg-secondary shadow">
               <CardHeader className="bg-white border-0">

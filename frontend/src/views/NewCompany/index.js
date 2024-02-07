@@ -18,10 +18,10 @@ const NewCompany = () => {
   return (
     <>
       <Header />
-      <Container className="mt--7" fluid>
-        <Row>
+      <Container className="mt--5 vh-100 blue-background" fluid>
+        <Row className="justify-content-center">
           <Col className="order-xl-1" xl="8">
-            <Card className="bg-secondary shadow">
+            <Card className="bg-secondary shadow white-glass-background">
               <CardHeader className="bg-white border-0">
               <Row className="align-items-center">
                   <Col xs="8">

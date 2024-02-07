@@ -75,7 +75,7 @@ const Sidebar = (props) => {
   return (
     <Navbar
       className="navbar-vertical fixed-left navbar-dark sidebar-shadow bg-gradient-dark"
-      expand="md"
+      expand="lg"
       id="sidenav-main"
     >
       <Container fluid>

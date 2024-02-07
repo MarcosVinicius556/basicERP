@@ -3,7 +3,6 @@
  * Custom backgrounds....
  *
  */
-
  .transparent-glass-background {
     background: transparent;
     backdrop-filter: blur(15px);
@@ -24,4 +23,10 @@
     -webkit-box-shadow: 15px 0px 12px 4px rgba(0,0,0,0.75);
     -moz-box-shadow: 15px 0px 12px 4px rgba(0,0,0,0.75);
     box-shadow: 15px 0px 12px 4px rgba(0,0,0,0.75);
+}
+
+.white-glass-background {
+   height: 100%;
+   background: #ffffffda;
+   backdrop-filter: blur(5px);
 }

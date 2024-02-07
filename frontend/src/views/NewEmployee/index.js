@@ -18,7 +18,7 @@ const NewEmployee = () => {
   return (
     <>
       <Header />
-      <Container className="mt--7" fluid>
+      <Container className="mt--5 vh-100 blue-background" fluid>
         <Row className="justify-content-center">
           <Col className="order-xl-1" xl="8">
             <Card className="bg-secondary shadow">

@@ -17,8 +17,8 @@ const ShowProducts = () => {
     <>
       <Header />
       {/* Page content */}
-      <Container className="mt--7" fluid>       
-        <Row className="mt-5">
+      <Container className="mt--5 vh-100 blue-background" fluid>       
+        <Row className="justify-content-center">
         <Col className="mb-5 mb-xl-0" xl="8">
             <Card className="shadow">
               <CardHeader className="border-0">
