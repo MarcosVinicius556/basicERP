@@ -20,7 +20,7 @@ var routes = [
   {
     path: "/home",
     name: "Home",
-    icon: "ni ni-tv-2 text-dark",
+    icon: "ni ni-tv-2 text-white",
     component: <Index />,
     layout: "/admin",
     show: true

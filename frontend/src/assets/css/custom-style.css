@@ -1,0 +1,27 @@
+/**
+ *
+ * Custom backgrounds....
+ *
+ */
+
+ .transparent-glass-background {
+    background: transparent;
+    backdrop-filter: blur(15px);
+ }
+
+ .blue-background {
+    background: url('../../assets/img/background/blue-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    -webkit-box-shadow: inset 159px 168px 106px -49px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 159px 168px 106px -49px rgba(0,0,0,0.75);
+    box-shadow: inset 159px 168px 106px -49px rgba(0,0,0,0.75);
+  }
+
+.sidebar-shadow {
+    -webkit-box-shadow: 15px 0px 12px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 0px 12px 4px rgba(0,0,0,0.75);
+    box-shadow: 15px 0px 12px 4px rgba(0,0,0,0.75);
+}

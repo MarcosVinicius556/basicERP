@@ -5,6 +5,15 @@ import {
   Container,
   Row,
   Col,
+  Card,
+  CardHeader,
+  Button,
+  CardBody,
+  FormGroup,
+  InputGroup,
+  InputGroupAddon,
+  InputGroupText,
+  Input,
 } from "reactstrap";
 
 // core components
@@ -25,11 +34,10 @@ const Index = (props) => {
     <>
       <Header />
       {/* Page content */}
-      <Container className="mt--7" fluid>       
-        <Row className="mt-5">
-        <Col className="mb-5 mb-xl-0" xl="8">
-            <h1 className="text-white">Olá Seja Bem Vindo!</h1>
-            <p>Aqui será a página de HOME, ainda será decidido o que irá ficar aqui</p>
+      <Container className="mt--7 vh-100 blue-background" fluid>       
+        <Row className="mt-5 justify-content-center">
+          <Col className="mb-5 mb-xl-0" xl="8">
+          
           </Col>
         </Row>
       </Container>
