@@ -44,11 +44,11 @@ const NewMeasurement = () => {
                             className="form-control-label"
                             htmlFor="input-username"
                           >
-                            Razão Social
+                            Código
                           </label>
                           <Input
                             className="form-control-alternative"
-                            placeholder="Digite o nome da empresa"
+                            placeholder="Digite o código da unidade de medida"
                             type="text"
                           />
                         </FormGroup>
@@ -58,135 +58,17 @@ const NewMeasurement = () => {
                           <label
                             className="form-control-label"
                           >
-                            CNPJ
+                            Descrição
                           </label>
                           <Input
                             className="form-control-alternative"
-                            placeholder="Digite o CNPJ da Empresa"
+                            placeholder="Digite a descrição da Unidade de Medida"
                             type="text"
                           />
                         </FormGroup>
                       </Col>
                     </Row>
-                    <Row>
-                      <Col lg="6">
-                        <FormGroup>
-                          <label
-                            className="form-control-label"
-                          >
-                            E-mail
-                          </label>
-                          <Input
-                            className="form-control-alternative"
-                            id="input-email"
-                            placeholder="Digite o e-mail da empresa"
-                            type="email"
-                          />
-                        </FormGroup>
-                      </Col>
-                      <Col lg="6">
-                        <FormGroup>
-                          <label
-                            className="form-control-label"
-                          >
-                            Telefone
-                          </label>
-                          <Input
-                            className="form-control-alternative"
-                            placeholder="Digite o telefone da empresa"
-                            type="text"
-                          />
-                        </FormGroup>
-                      </Col>
-                    </Row>
-                  </div>
-                  <hr className="my-4" />
-
-                  {/* Address */}
-                  <h6 className="heading-small text-muted mb-4">
-                    Informações de Endereço
-                  </h6>
-                  <div className="pl-lg-4">
-                    <Row>
-                      <Col lg="4">
-                        <FormGroup>
-                          <label
-                            className="form-control-label"
-                            htmlFor="input-country"
-                          >
-                            CEP
-                          </label>
-                          <Input
-                            className="form-control-alternative"
-                            id="input-postal-code"
-                            placeholder="Digite seu CEP"
-                            type="number"
-                          />
-                        </FormGroup>
-                      </Col>
-                      <Col md="12">
-                        <FormGroup>
-                          <label
-                            className="form-control-label"
-                          >
-                            Endereço
-                          </label>
-                          <Input
-                            className="form-control-alternative"
-                            placeholder="Digite seu endereço"
-                            type="text"
-                          />
-                        </FormGroup>
-                      </Col>
-                    </Row>
-                    <Row>
-                      <Col lg="2">
-                        <FormGroup>
-                          <label
-                            className="form-control-label"
-                          >
-                            Número
-                          </label>
-                          <Input
-                            className="form-control-alternative"
-                            placeholder="Digite o número do local"
-                            type="text"
-                          />
-                        </FormGroup>
-                      </Col>
-                      <Col lg="4">
-                        <FormGroup>
-                          <label
-                            className="form-control-label"
-                            htmlFor="input-city"
-                          >
-                            Cidade
-                          </label>
-                          <Input
-                            className="form-control-alternative"
-                            id="input-city"
-                            placeholder="Digite o nome da sua cidade"
-                            type="text"
-                          />
-                        </FormGroup>
-                      </Col>
-                      <Col lg="4">
-                        <FormGroup>
-                          <label
-                            className="form-control-label"
-                            htmlFor="input-city"
-                          >
-                            Cidade
-                          </label>
-                          <Input
-                            className="form-control-alternative"
-                            id="input-city"
-                            placeholder="Digite o nome da sua cidade"
-                            type="text"
-                          />
-                        </FormGroup>
-                      </Col>
-                    </Row>
+                    
                   </div>
                 </Form>
               </CardBody>

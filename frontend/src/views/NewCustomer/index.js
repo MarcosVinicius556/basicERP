@@ -18,7 +18,7 @@ const NewCustomer = () => {
   return (
     <>
       <Header />
-      <Container className="mt--5 vh-100 blue-background" fluid>
+      <Container className="mt--5 blue-background" fluid>
         <Row className="justify-content-center">
           <Col className="order-xl-1" xl="8">
             <Card className="bg-secondary shadow">
@@ -36,19 +36,18 @@ const NewCustomer = () => {
               </CardHeader>
               <CardBody>
                 <Form>
-                  <div className="pl-lg-4">
+                <div className="pl-lg-4">
                     <Row>
                       <Col lg="6">
                         <FormGroup>
                           <label
                             className="form-control-label"
-                            htmlFor="input-username"
                           >
-                            Razão Social
+                            Nome
                           </label>
                           <Input
                             className="form-control-alternative"
-                            placeholder="Digite o nome da empresa"
+                            placeholder="Digite o nome do funcionário"
                             type="text"
                           />
                         </FormGroup>
@@ -58,11 +57,11 @@ const NewCustomer = () => {
                           <label
                             className="form-control-label"
                           >
-                            CNPJ
+                            CPF
                           </label>
                           <Input
                             className="form-control-alternative"
-                            placeholder="Digite o CNPJ da Empresa"
+                            placeholder="Digite o CPF do funcionário"
                             type="text"
                           />
                         </FormGroup>
@@ -95,6 +94,23 @@ const NewCustomer = () => {
                             className="form-control-alternative"
                             placeholder="Digite o telefone da empresa"
                             type="text"
+                          />
+                        </FormGroup>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col lg="4" sm="4">
+                        <FormGroup>
+                          <label
+                            className="form-control-label"
+                          >
+                            Data de Nascimento
+                          </label>
+                          <Input
+                            className="form-control-alternative"
+                            id="input-nascimento"
+                            placeholder="Digite a data de nascimento"
+                            type="date"
                           />
                         </FormGroup>
                       </Col>

@@ -38,17 +38,16 @@ const NewProduct = () => {
                 <Form>
                   <div className="pl-lg-4">
                     <Row>
-                      <Col lg="6">
+                      <Col lg="6" sm="6">
                         <FormGroup>
                           <label
                             className="form-control-label"
-                            htmlFor="input-username"
                           >
-                            Razão Social
+                            Código
                           </label>
                           <Input
                             className="form-control-alternative"
-                            placeholder="Digite o nome da empresa"
+                            placeholder="Digite o código do produto"
                             type="text"
                           />
                         </FormGroup>
@@ -58,11 +57,11 @@ const NewProduct = () => {
                           <label
                             className="form-control-label"
                           >
-                            CNPJ
+                            Descrição
                           </label>
                           <Input
                             className="form-control-alternative"
-                            placeholder="Digite o CNPJ da Empresa"
+                            placeholder="Digite a descrição do produto"
                             type="text"
                           />
                         </FormGroup>
@@ -74,115 +73,59 @@ const NewProduct = () => {
                           <label
                             className="form-control-label"
                           >
-                            E-mail
+                            Descrição Reduzida
                           </label>
                           <Input
                             className="form-control-alternative"
                             id="input-email"
-                            placeholder="Digite o e-mail da empresa"
+                            placeholder="Digite a descrição reduzida do produto"
                             type="email"
                           />
                         </FormGroup>
                       </Col>
+                      <Col lg="6" sm="6">
+                        <FormGroup>
+                          <label className="form-control-label" >
+                              Unidade de Medida
+                          </label>
+                          <Input type="select" value={1}>
+                            <option value="UN">Unidade</option>
+                            <option value="M">Metro</option>
+                            <option value="PC">Peça</option>
+                          </Input>  
+                        </FormGroup>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col lg="6" sm="6">
+                        <FormGroup>
+                          <label
+                            className="form-control-label"
+                          >
+                            Valor
+                          </label>
+                          <Input
+                            className="form-control-alternative"
+                            id="input-valor"
+                            placeholder="Digite o valor do produto"
+                            type="number"
+                          />
+                        </FormGroup>
+                      </Col>
+                    </Row>
+                    <Row>
                       <Col lg="6">
                         <FormGroup>
                           <label
                             className="form-control-label"
                           >
-                            Telefone
+                            Observação
                           </label>
                           <Input
                             className="form-control-alternative"
-                            placeholder="Digite o telefone da empresa"
-                            type="text"
-                          />
-                        </FormGroup>
-                      </Col>
-                    </Row>
-                  </div>
-                  <hr className="my-4" />
-
-                  {/* Address */}
-                  <h6 className="heading-small text-muted mb-4">
-                    Informações de Endereço
-                  </h6>
-                  <div className="pl-lg-4">
-                    <Row>
-                      <Col lg="4">
-                        <FormGroup>
-                          <label
-                            className="form-control-label"
-                            htmlFor="input-country"
-                          >
-                            CEP
-                          </label>
-                          <Input
-                            className="form-control-alternative"
-                            id="input-postal-code"
-                            placeholder="Digite seu CEP"
-                            type="number"
-                          />
-                        </FormGroup>
-                      </Col>
-                      <Col md="12">
-                        <FormGroup>
-                          <label
-                            className="form-control-label"
-                          >
-                            Endereço
-                          </label>
-                          <Input
-                            className="form-control-alternative"
-                            placeholder="Digite seu endereço"
-                            type="text"
-                          />
-                        </FormGroup>
-                      </Col>
-                    </Row>
-                    <Row>
-                      <Col lg="2">
-                        <FormGroup>
-                          <label
-                            className="form-control-label"
-                          >
-                            Número
-                          </label>
-                          <Input
-                            className="form-control-alternative"
-                            placeholder="Digite o número do local"
-                            type="text"
-                          />
-                        </FormGroup>
-                      </Col>
-                      <Col lg="4">
-                        <FormGroup>
-                          <label
-                            className="form-control-label"
-                            htmlFor="input-city"
-                          >
-                            Cidade
-                          </label>
-                          <Input
-                            className="form-control-alternative"
-                            id="input-city"
-                            placeholder="Digite o nome da sua cidade"
-                            type="text"
-                          />
-                        </FormGroup>
-                      </Col>
-                      <Col lg="4">
-                        <FormGroup>
-                          <label
-                            className="form-control-label"
-                            htmlFor="input-city"
-                          >
-                            Cidade
-                          </label>
-                          <Input
-                            className="form-control-alternative"
-                            id="input-city"
-                            placeholder="Digite o nome da sua cidade"
-                            type="text"
+                            id="input-valor"
+                            placeholder="Digite alguma observação sobre o produto"
+                            type="textarea"
                           />
                         </FormGroup>
                       </Col>
